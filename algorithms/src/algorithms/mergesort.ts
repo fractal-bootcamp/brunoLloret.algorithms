@@ -1,5 +1,5 @@
 
-export function mergeSort(array: Array<number>): Array<any> {
+function mergeSort(array: Array<number>): Array<any> {
 
     console.log("Dividing array:", array)
     // Base case: a single-element array is by definition sorted
@@ -29,7 +29,7 @@ export function mergeSort(array: Array<number>): Array<any> {
 
 // // then compare each element with the adjacent list to sort and merge the two adjacent lists.
 // here we have two arrays: left and right
-export function merge(left: Array<number>, right: Array<number>): Array<any> {
+function merge(left: Array<number>, right: Array<number>): Array<any> {
     console.log("Merging:", left, right)
     let sorted = [];
     let leftIndex = 0;
